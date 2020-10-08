@@ -1,3 +1,21 @@
 title: Registry kit
 media: []
 redirectFrom: []
+summary:
+  doc:
+    type: doc
+    content:
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              Registry kit aids developing extensions for editing data that
+              conforms to ISO 19135-1 registry model.
+contents:
+  doc:
+    type: doc
+    content:
+      - type: paragraph
+        content:
+          - type: text
+            text: This section is currently being written.
