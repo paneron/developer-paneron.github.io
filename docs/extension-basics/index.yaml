@@ -11,3 +11,25 @@ contents:
             text: >-
               A Paneron extension is an NPM package, where the file specified as
               “entry” has a default export of certain format.
+      - type: admonition
+        attrs:
+          type: seealso
+        content:
+          - type: paragraph
+            content:
+              - type: text
+                text: >-
+                  Currently, Paneron requires all extension packages to be
+                  published on NPM under 
+              - type: text
+                marks:
+                  - type: code
+                text: '@riboseinc'
+              - type: text
+                text: ' scope, named as '
+              - type: text
+                marks:
+                  - type: code
+                text: '@riboseinc/paneron-extension-<extension name>'
+              - type: text
+                text: .
