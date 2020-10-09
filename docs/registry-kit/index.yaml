@@ -19,3 +19,11 @@ contents:
         content:
           - type: text
             text: This section is currently being written.
+      - type: admonition
+        attrs:
+          type: seealso
+        content:
+          - type: paragraph
+            content:
+              - type: text
+                text: test!
