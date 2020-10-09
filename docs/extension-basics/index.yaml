@@ -15,6 +15,10 @@ contents:
         attrs:
           type: note
         content:
+          - type: admonition_caption
+            content:
+              - type: text
+                text: Package scoping & naming rule
           - type: paragraph
             content:
               - type: text
