@@ -18,4 +18,21 @@ contents:
       - type: paragraph
         content:
           - type: text
-            text: This section is currently being written.
+            text: >-
+              A common case of structured data is registers, as defined by the
+              ISO 19135-1 standard.
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              Registry kit defines a model for expressing ISO 19135-1 register
+              data as a collection of YAML files, and simplifies creating
+              Paneron extensions that work with that data.
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              Instead of writing your own repository view component from
+              scratch, with Registry kit you can import its registry view and
+              pass it a description of item classes that your register supports
+              with.
