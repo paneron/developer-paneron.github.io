@@ -37,3 +37,15 @@ contents:
                 text: '@riboseinc/paneron-extension-<extension name>'
               - type: text
                 text: .
+      - type: admonition
+        attrs:
+          type: tip
+        content:
+          - type: paragraph
+            content:
+              - type: text
+                text: >-
+                  Take a look at
+                  https://github.com/paneron/extension-template-basic for an
+                  example of Paneron extension layout. You can create your own
+                  extension by using that template, too.
