@@ -13,7 +13,7 @@ contents:
               “entry” has a default export of certain format.
       - type: admonition
         attrs:
-          type: seealso
+          type: note
         content:
           - type: paragraph
             content:
