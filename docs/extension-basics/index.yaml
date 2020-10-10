@@ -44,8 +44,15 @@ contents:
           - type: paragraph
             content:
               - type: text
-                text: >-
-                  Take a look at
-                  https://github.com/paneron/extension-template-basic for an
-                  example of Paneron extension layout. You can create your own
-                  extension by using that template, too.
+                text: 'Take a look at '
+              - type: link
+                attrs:
+                  schemaID: web
+                  reference: 'https://github.com/paneron/extension-template-basic'
+                  hRef: 'https://github.com/paneron/extension-template-basic'
+                  title: ''
+                content:
+                  - type: text
+                    text: basic extension template
+              - type: text
+                text: ' for an example of Paneron extension layout. You can create your own extension by using that template, too.'
