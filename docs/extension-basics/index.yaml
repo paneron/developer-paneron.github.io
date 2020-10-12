@@ -41,6 +41,33 @@ contents:
                 text: '@riboseinc/paneron-extension-<extension name>'
               - type: text
                 text: .
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              The extension should detect whether it is being imported in
+              Electron’s main or renderer thread, and export a default that has
+              the following shape:
+      - type: bullet_list
+        content:
+          - type: list_item
+            content:
+              - type: paragraph
+                content:
+                  - type: text
+                    text: 'For main thread, for now it’s just an empty object.'
+          - type: list_item
+            content:
+              - type: paragraph
+                content:
+                  - type: text
+                    text: >-
+                      For renderer thread, it should be a promise that returns
+                      an object with a single “repositoryView” property. That
+                      property should be a React component which will be
+                      responsible for displaying the UI for displaying and
+                      manipulating structured registry data.
+      - type: paragraph
       - type: admonition
         attrs:
           type: tip
