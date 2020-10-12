@@ -32,6 +32,16 @@ contents:
               Registry kit defines a model for expressing ISO 19135-1 register
               data as a collection of YAML files, and simplifies creating
               Paneron extensions that work with that data.
+      - type: admonition
+        attrs:
+          type: note
+        content:
+          - type: paragraph
+            content:
+              - type: text
+                text: >-
+                  Registry kit is currently under active development, and some
+                  of its features may be incomplete.
       - type: paragraph
         content:
           - type: text
@@ -51,91 +61,105 @@ contents:
               thus just significantly reduced: right now it’s mostly providing
               UI components for displaying and editing register item data that
               is specific to your item classes.
-      - type: paragraph
+      - type: section
         content:
-          - type: text
-            text: 'The configuration of register item classes includes the following:'
-      - type: bullet_list
-        content:
-          - type: list_item
-            content:
-              - type: paragraph
-                content:
-                  - type: text
-                    text: General item metadata
-              - type: bullet_list
-                content:
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: >-
-                              Machine-readable class identifier, which will also
-                              serve as the name of the directory item contents
-                              reside in
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: >-
-                              Human-readable item class title, as well as
-                              alternative names (if any)
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: Item class description
-          - type: list_item
-            content:
-              - type: paragraph
-                content:
-                  - type: text
-                    text: Default values for register item data
-          - type: list_item
-            content:
-              - type: paragraph
-                content:
-                  - type: text
-                    text: >-
-                      React components that serve as views of a given register
-                      item
-              - type: bullet_list
-                content:
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: Displaying item data
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: Editing item data
-                  - type: list_item
-                    content:
-                      - type: paragraph
-                        content:
-                          - type: text
-                            text: Displaying item in list
-      - type: paragraph
-        content:
-          - type: text
-            text: >-
-              For an example of a Paneron extension built with registry kit, see
-              the 
-          - type: link
-            attrs:
-              schemaID: web
-              reference: 'https://github.com/paneron/extension-geodetic-registry'
-              hRef: 'https://github.com/paneron/extension-geodetic-registry'
-              title: ''
+          - type: section_header
             content:
               - type: text
-                text: ISO/TC 211 Geodetic registry extension
-          - type: text
-            text: .
+                text: Configuring item classes
+          - type: paragraph
+            content:
+              - type: text
+                text: >-
+                  The configuration of register item classes includes the
+                  following:
+          - type: bullet_list
+            content:
+              - type: list_item
+                content:
+                  - type: paragraph
+                    content:
+                      - type: text
+                        text: General item metadata
+                  - type: bullet_list
+                    content:
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: >-
+                                  Machine-readable class identifier, which will
+                                  also serve as the name of the directory item
+                                  contents reside in
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: >-
+                                  Human-readable item class title, as well as
+                                  alternative names (if any)
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: Item class description
+              - type: list_item
+                content:
+                  - type: paragraph
+                    content:
+                      - type: text
+                        text: Default values for register item data
+              - type: list_item
+                content:
+                  - type: paragraph
+                    content:
+                      - type: text
+                        text: >-
+                          React components that serve as views of a given
+                          register item
+                  - type: bullet_list
+                    content:
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: Displaying item data
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: Editing item data
+                      - type: list_item
+                        content:
+                          - type: paragraph
+                            content:
+                              - type: text
+                                text: Displaying item in list
+      - type: section
+        content:
+          - type: section_header
+            content:
+              - type: text
+                text: Example extension
+          - type: paragraph
+            content:
+              - type: text
+                text: >-
+                  For an example of a Paneron extension built with registry kit,
+                  see the 
+              - type: link
+                attrs:
+                  schemaID: web
+                  reference: 'https://github.com/paneron/extension-geodetic-registry'
+                  hRef: 'https://github.com/paneron/extension-geodetic-registry'
+                  title: ''
+                content:
+                  - type: text
+                    text: ISO/TC 211 Geodetic registry extension
+              - type: text
+                text: .
