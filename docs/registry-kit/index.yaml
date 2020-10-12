@@ -10,7 +10,7 @@ summary:
           - type: text
             text: >-
               Registry kit aids developing extensions for editing data that
-              conforms to ISO 19135-1 registry model.
+              aligns with ISO 19135-1 register schema.
 contents:
   doc:
     type: doc
