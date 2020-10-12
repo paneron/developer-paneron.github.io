@@ -62,8 +62,8 @@ contents:
                 content:
                   - type: text
                     text: >-
-                      For renderer thread, it should be a promise that returns
-                      an object with a single “repositoryView” property. That
+                      For renderer thread, it should be a promise that resolves
+                      to an object with a single “repositoryView” property. That
                       property should be a React component which will be
                       responsible for displaying the UI for displaying and
                       manipulating structured registry data.
