@@ -43,6 +43,17 @@ contents:
       - type: paragraph
         content:
           - type: text
+            text: >-
+              Registry kit would then handle the general aspects of registers,
+              such as item IDs, statuses, change request flow and more. It would
+              also handle the low-level interaction with repository data, such
+              as reading and reading files. Your extension’s responsibility is
+              thus just significantly reduced: right now it’s mostly providing
+              UI components for displaying and editing register item data that
+              is specific to your item classes.
+      - type: paragraph
+        content:
+          - type: text
             text: 'The configuration of register item classes includes the following:'
       - type: bullet_list
         content:
