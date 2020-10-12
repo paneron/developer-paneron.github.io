@@ -37,6 +37,94 @@ contents:
           - type: text
             text: >-
               Instead of writing your own repository view component from
-              scratch, with Registry kit you can import its registry view and
-              pass it a description of item classes that your register supports
-              with.
+              scratch, with the registry kit you can import its registry view
+              component, and pass it a configuration of register item classes
+              that your register supports.
+      - type: paragraph
+        content:
+          - type: text
+            text: 'The configuration of register item classes includes the following:'
+      - type: bullet_list
+        content:
+          - type: list_item
+            content:
+              - type: paragraph
+                content:
+                  - type: text
+                    text: General item metadata
+              - type: bullet_list
+                content:
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: >-
+                              Machine-readable class identifier, which will also
+                              serve as the name of the directory item contents
+                              reside in
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: >-
+                              Human-readable item class title, as well as
+                              alternative names (if any)
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: Item class description
+          - type: list_item
+            content:
+              - type: paragraph
+                content:
+                  - type: text
+                    text: Default values for register item data
+          - type: list_item
+            content:
+              - type: paragraph
+                content:
+                  - type: text
+                    text: >-
+                      React components that serve as views of a given register
+                      item
+              - type: bullet_list
+                content:
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: Displaying item data
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: Editing item data
+                  - type: list_item
+                    content:
+                      - type: paragraph
+                        content:
+                          - type: text
+                            text: Displaying item in list
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              For an example of a Paneron extension built with registry kit, see
+              the 
+          - type: link
+            attrs:
+              schemaID: web
+              reference: 'https://github.com/paneron/extension-geodetic-registry'
+              hRef: 'https://github.com/paneron/extension-geodetic-registry'
+              title: ''
+            content:
+              - type: text
+                text: ISO/TC 211 Geodetic registry extension
+          - type: text
+            text: .
