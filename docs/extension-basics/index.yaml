@@ -8,6 +8,10 @@ contents:
       - type: paragraph
         content:
           - type: text
+            text: Paneron’s power is in its extensions.
+      - type: paragraph
+        content:
+          - type: text
             text: >-
               A Paneron extension is an NPM package, where the file specified as
               “entry” has a default export of certain format.
@@ -56,3 +60,13 @@ contents:
                     text: basic extension template
               - type: text
                 text: ' for an example of Paneron extension layout. You can create your own extension by using that template, too.'
+summary:
+  doc:
+    type: doc
+    content:
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              A Paneron extension is responsible for providing the UI for
+              manipulating structured data residing in a given repository.
