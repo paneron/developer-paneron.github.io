@@ -68,6 +68,19 @@ contents:
                       responsible for displaying the UI for displaying and
                       manipulating structured registry data.
       - type: paragraph
+        content:
+          - type: text
+            text: 'Thread detection can be done by checking global '
+          - type: text
+            marks:
+              - type: code
+            text: process.type
+          - type: text
+            text: >-
+              , the value of which in Electron is (counter-intuitively)
+              “browser” for main thread, and (less confusingly) “renderer” in
+              the renderer thread. (You’ll need to import “electron” for
+              process.type to be available.)
       - type: admonition
         attrs:
           type: tip
