@@ -15,6 +15,12 @@ contents:
             text: >-
               A Paneron extension is an NPM package, where the file specified as
               “entry” has a default export of certain format.
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              The recommended tooling for developing extensions is Microsoft VS
+              Code, and the language is TypeScript.
       - type: admonition
         attrs:
           type: note
@@ -100,6 +106,13 @@ contents:
                     text: basic extension template
               - type: text
                 text: ' for an example of Paneron extension layout. You can create your own extension by using that template, too.'
+      - type: paragraph
+        content:
+          - type: text
+            text: >-
+              Your extension’s React component will have at its disposal
+              facilities for reading and updating repository data. Those
+              facilities are passed to your extension by Paneron via props.
 summary:
   doc:
     type: doc
