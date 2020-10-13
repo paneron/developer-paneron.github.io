@@ -62,6 +62,8 @@ contents:
               UI components for displaying and editing register item data that
               is specific to your item classes.
       - type: section
+        attrs:
+          id: a-section
         content:
           - type: section_header
             content:
@@ -141,6 +143,8 @@ contents:
                               - type: text
                                 text: Displaying item in list
       - type: section
+        attrs:
+          id: a-section
         content:
           - type: section_header
             content:
