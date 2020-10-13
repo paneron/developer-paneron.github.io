@@ -63,7 +63,7 @@ contents:
               is specific to your item classes.
       - type: section
         attrs:
-          id: a-section
+          id: configuring-item-classes
         content:
           - type: section_header
             content:
@@ -144,7 +144,7 @@ contents:
                                 text: Displaying item in list
       - type: section
         attrs:
-          id: a-section
+          id: example-extension
         content:
           - type: section_header
             content:
