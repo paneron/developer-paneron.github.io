@@ -119,6 +119,18 @@ contents:
                   - type: paragraph
                     content:
                       - type: text
+                        text: Item sorter function
+              - type: list_item
+                content:
+                  - type: paragraph
+                    content:
+                      - type: text
+                        text: Item data validation and sanitization functinos
+              - type: list_item
+                content:
+                  - type: paragraph
+                    content:
+                      - type: text
                         text: >-
                           React components that serve as views of a given
                           register item
