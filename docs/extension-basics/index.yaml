@@ -69,8 +69,14 @@ contents:
                   - type: text
                     text: >-
                       For renderer thread, it should be a promise that resolves
-                      to an object with a single “repositoryView” property. That
-                      property should be a React component which will be
+                      to an object with a single property 
+                  - type: text
+                    marks:
+                      - type: code
+                    text: repositoryView
+                  - type: text
+                    text: >-
+                      . That property should be a React component which will be
                       responsible for displaying the UI for displaying and
                       manipulating structured registry data.
       - type: paragraph
