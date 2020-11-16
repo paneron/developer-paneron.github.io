@@ -179,3 +179,26 @@ contents:
                     text: ISO/TC 211 Geodetic registry extension
               - type: text
                 text: .
+      - type: section
+        attrs:
+          id: template-extension
+        content:
+          - type: section_header
+            content:
+              - type: text
+                text: Template extension
+          - type: paragraph
+            content:
+              - type: text
+                text: 'You can use the '
+              - type: link
+                attrs:
+                  schemaID: web
+                  reference: 'https://github.com/paneron/extension-template-registry'
+                  hRef: 'https://github.com/paneron/extension-template-registry'
+                  title: ''
+                content:
+                  - type: text
+                    text: registry extension template
+              - type: text
+                text: ' as the starting point.'
