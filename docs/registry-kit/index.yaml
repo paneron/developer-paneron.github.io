@@ -58,9 +58,9 @@ contents:
               such as item IDs, statuses, change request flow and more. It would
               also handle the low-level interaction with repository data, such
               as reading and reading files. Your extension’s responsibility is
-              thus just significantly reduced: right now it’s mostly providing
-              UI components for displaying and editing register item data that
-              is specific to your item classes.
+              thus significantly reduced: right now it’s mostly providing UI
+              components for displaying and editing register item data that is
+              specific to your item classes.
       - type: section
         attrs:
           id: configuring-item-classes
