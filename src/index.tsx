@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import { AppContainer } from 'react-hot-loader'
 
 // Your top level component
@@ -14,15 +14,15 @@ if (typeof document !== 'undefined') {
   const target = document.getElementById('root')
 
   const renderMethod = target.hasChildNodes()
-            ? ReactDOM.hydrate
-            : ReactDOM.render
+            ? hydrateRoot
+            : createRoot
 
-  const render = (Comp: Function) => {
+  const render = (Comp: () => React.JSX.Element) => {
     renderMethod(
+      target,
       <AppContainer>
         <Comp />
       </AppContainer>,
-      target
     )
   }
 
