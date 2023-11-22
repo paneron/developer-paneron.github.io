@@ -24,6 +24,17 @@
     },
     "lib": ["dom", "es2015", "es2016"]
   },
-  "exclude": ["artifacts/**/*", "dist/**/*", "public/**/*", "node_modules"]
+  "include": [
+    "**.json",
+    "*.ts",
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "artifacts",
+    "public"
+  ],
+
 }
-      
+                        
