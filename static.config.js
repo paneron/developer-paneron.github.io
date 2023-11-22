@@ -3,9 +3,11 @@ import path from 'path'
 const DOCS_PATH = path.join(__dirname, 'docs');
 
 const siteRoot = process.env.SITE_ROOT || '/';
+const basePath = process.env.BASE_PATH || '/';
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
+  basePath,
   siteRoot,
   getRoutes: async () => {
     return [
