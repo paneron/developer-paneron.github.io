@@ -2,8 +2,11 @@ import path from 'path'
 
 const DOCS_PATH = path.join(__dirname, 'docs');
 
+const siteRoot = process.env.SITE_ROOT || '/';
+
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
+  siteRoot,
   getRoutes: async () => {
     return [
     ]
