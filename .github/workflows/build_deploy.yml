@@ -49,6 +49,7 @@ jobs:
         run: yarn build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
+          SITE_ROOT: ${{ vars.SITE_ROOT }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
